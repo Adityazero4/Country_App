@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<Countries></Countries>}></Route>
+          <Route path="/country_app" element={<Countries></Countries>}></Route>
           <Route path="/country/:name" element={<Country></Country>}></Route>
 
           <Route

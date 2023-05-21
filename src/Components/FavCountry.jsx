@@ -21,7 +21,7 @@ const FavCountry = () => {
     <div>
       <Typography variant="h5">Favorite Countries</Typography>
       <Box sx={{ margin: "10px" }}>
-        <Link to="/">
+        <Link to="/country_app">
           <Button variant="outlined" startIcon={<KeyboardBackspaceSharpIcon />}>
             Back
           </Button>

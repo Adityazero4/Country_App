@@ -55,7 +55,7 @@ const Country = () => {
   return (
     <div>
       <Box sx={{ margin: "10px" }}>
-        <Link to="/">
+        <Link to="/country_app">
           <Button variant="outlined" startIcon={<KeyboardBackspaceSharpIcon />}>
             Back
           </Button>
